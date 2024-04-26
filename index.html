@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artica Fitness & Saúde</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contatos">
+        <div class="campo-contatos">
+            <h3>Entre em contato</h3>
+            <p>Marque sua consulta e tire suas dúvidas.</p>
+            <form id="form-contatos">
+                <label for="nome">
+                    <p>Nome</p>
+                    <input type="text" name="nome" size="50" placeholder="Digite seu Nome" id="nome" required>
+                </label>
+                <label for="email">
+                    <p>Email</p>
+                    <input type="email" name="email" size="50" placeholder="Digite seu Email" id="email" required>
+                </label>
+                <label for="telefone">
+                    <p>Telefone</p>
+                    <input type="tel" name="telefone" size="50" placeholder="Digite seu Telefone" id="tel" required>
+                </label>
+                <label for="mensagem">
+                    <p>Mensagem</p>
+                    <textarea name="mensagem" id="msg" rows="5" cols="50" maxlength="500" placeholder="Digite aqui sua mensagem..."></textarea>
+                </label>
+                <div><button type="submit" class="btn-news">ENVIAR</button></div>
+            </form>
+        </div>
+        <span class="contatos-preenchido">
+            <h3>Obrigado por entrar em contato!</h3>
+            <p>Responderemos sua mensagem o mais breve possível.</p>
+        </span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
